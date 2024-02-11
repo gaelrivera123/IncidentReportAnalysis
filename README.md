@@ -71,4 +71,4 @@ The company’s cybersecurity team then investigated the security event. They fo
 
 Using the NIST CSF framework, along with current cybersecurity knowledge, we will construct an incident report analysis on the fictional scenario above.
 
-[Fictional Incident Report Analysis](tinyurl.com/25ma6q38)
+[Fictional Incident Report Analysis](https://docs.google.com/document/d/1Irng0T3Gv3w8o4dQl3dtfsqjswzdHaCxujLbMb05Ft0/edit?usp=sharing&resourcekey=0-c8JfvklBr4ILOR5F2cYEBQ)
