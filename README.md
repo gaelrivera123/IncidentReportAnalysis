@@ -46,4 +46,29 @@ The NIST CSF for short is a very popular cybersecurity framework created to prov
       - Improvements: What improvements need to be impelemented in order to develop a more effective procedure for responding?
      
 - <b>Recover</b>
-  - A
+  - Recover any affected systems, data, and assets that were targeted during the attack and restore them to normal operations
+  - Construct a plan to recover an organization's assets in a timely, efficient manner after an attack
+    - Core questions to ask yourself when trying to recover after an incident:
+      - Recovery plan: How can we restore resources after an incident, such as using a backup?
+      - Improvements for recovery: Do we need to improve on any current recovery systems or processes?
+      - Communications: How we can communicate thoroughly throughout an organization to ensure we restore affected individuals, including staff and users.
+
+<h2>Fictional Scenario</h2>
+
+You are a cybersecurity analyst working for a multimedia company that offers web design services, graphic design, and social media marketing solutions to small businesses. Your organization recently experienced a DDoS attack, which compromised the internal network for two hours until it was resolved.
+
+During the attack, your organization’s network services suddenly stopped responding due to an incoming flood of ICMP packets. Normal internal network traffic could not access any network resources. The incident management team responded by blocking incoming ICMP packets, stopping all non-critical network services offline, and restoring critical network services. 
+
+The company’s cybersecurity team then investigated the security event. They found that a malicious actor had sent a flood of ICMP pings into the company’s network through an unconfigured firewall. This vulnerability allowed the malicious attacker to overwhelm the company’s network through a distributed denial of service (DDoS) attack. 
+
+<b>To address this security event, the network security team implemented:</b>
+  - A new firewall rule to limit the rate of incoming ICMP packets
+  - Source IP address verification on the firewall to check for spoofed IP addresses on incoming ICMP packets
+  - Network monitoring software to detect abnormal traffic patterns
+  - An IDS/IPS system to filter out some ICMP traffic based on suspicious characteristics
+
+<h2>Incident Report</h2>
+
+Using the NIST CSF framework, along with current cybersecurity knowledge, we will construct an incident report analysis on the fictional scenario above.
+
+[Fictional Incident Report Analysis](tinyurl.com/25ma6q38)
